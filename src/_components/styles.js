@@ -7,6 +7,7 @@ export const Container = styled.div`
   border-radius: 8px;
   margin: 16px 8px;
   padding: 16px;
+  width: 350px;
 `;
 
 
@@ -20,4 +21,8 @@ export const TitleAndIngredients = styled.div`
     font-size: 14px;
     padding-left: 2px;
   }
+`
+
+export const Header = styled.div`
+  display: 'flex';
 `

@@ -1,5 +1,5 @@
 import { Detail } from "../../_components/Detail"
 
 export const Cocktail = ()=>{
-  return <Detail />
+  return <div className="Colored-div"><Detail /></div>
 }

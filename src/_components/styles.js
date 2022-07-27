@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin: 16px 8px;
   padding: 16px;
   width: 350px;
+  cursor: pointer;
 `;
 
 
@@ -24,5 +25,21 @@ export const TitleAndIngredients = styled.div`
 `
 
 export const Header = styled.div`
-  display: 'flex';
+  display: flex;
+  text-align: left;
+  width: 380px;
+  margin-bottom: 16px;
+  color: white;
+`
+
+export const DetailContainer = styled.div`
+  background-color: white;
+  padding: 16px;
+`
+
+export const DetailsText = styled.div`
+  display: grid ;
+  text-align: left;
+  max-width: 350px;
+  font-size: 12px;
 `

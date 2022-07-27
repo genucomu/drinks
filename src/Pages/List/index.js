@@ -11,7 +11,6 @@ export const List = ()=>{
     const response =  await executeMethod('get', '/api/json/v1/1/filter.php', {
       g: 'Cocktail_glass'
     })
-    console.log(response)
     return setList(response.drinks)
   }, [])
 
@@ -21,7 +20,7 @@ export const List = ()=>{
 
   return !list
           ?<div>Loading...</div> 
-          :<div>
+          :<div className="Colored-div">
             {list.map((x, idx)=><Item {...x} key={idx}/>)}
           </div>
 }

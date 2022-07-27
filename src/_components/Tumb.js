@@ -1,3 +1,3 @@
-export const Tumb = ({url, alt})=>{
-  return <img style={{width: '180px', height: '180px'}} src={url} alt={alt} />
+export const Tumb = ({url, alt, width, height})=>{
+  return <img style={{width: width ||'180px', height: height||'180px'}} src={url} alt={alt} />
 }
